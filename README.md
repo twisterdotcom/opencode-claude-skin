@@ -1,6 +1,6 @@
-# Claude UI Skin Plugin for OpenCode
+# OpenCode Claude UI Skin Plugin
 
-A plugin that provides a Claude-inspired user interface skin for OpenCode.
+A Claude-inspired UI skin plugin for OpenCode that provides a clean, modern interface matching Claude's design language.
 
 ## Features
 
@@ -11,18 +11,23 @@ A plugin that provides a Claude-inspired user interface skin for OpenCode.
 
 ## Installation
 
+Install in any OpenCode project:
+
 ```bash
-# Install the plugin in your OpenCode project
-opencode plugin add https://github.com/anomalyco/opencode.git#packages/plugins/claude-skin
+opencode plugin add https://github.com/twisterdotcom/opencode-claude-skin.git
 ```
 
 ## Usage
 
 Once installed, the Claude UI skin will automatically apply to your OpenCode interface.
 
-## Customization
+## Components
 
-You can further customize the theme by modifying the `src/theme.ts` file in this plugin package.
+The plugin includes:
+
+- `ClaudeMessage` - Styled chat bubbles matching Claude's design
+- `ClaudeButton` - Clean button styling with hover effects
+- `ClaudeInput` - Consistent input field styling
 
 ## Development
 
@@ -31,11 +36,10 @@ To develop and test this plugin:
 1. Install dependencies:
 
 ```bash
-cd packages/plugins/claude-skin
 bun install
 ```
 
-2. Run development server:
+2. Run development server (if needed):
 
 ```bash
 bun run dev

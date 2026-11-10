@@ -1,6 +1,7 @@
 {
   "name": "@opencode/claude-skin",
   "version": "1.0.0",
+  "description": "Claude UI skin plugin for OpenCode",
   "type": "module",
   "license": "MIT",
   "exports": {
@@ -19,5 +20,17 @@
   },
   "peerDependencies": {
     "solid-js": "^1.9.0"
+  },
+  "keywords": [
+    "opencode",
+    "claude",
+    "ui",
+    "plugin",
+    "theme"
+  ],
+  "author": "OpenCode Team",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twisterdotcom/opencode-claude-skin.git"
   }
 }
