@@ -1,0 +1,23 @@
+{
+  "name": "@opencode/claude-skin",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    "./package.json": "./package.json",
+    "./theme": "./src/theme.ts",
+    "./components/*": "./src/components/*.tsx"
+  },
+  "scripts": {
+    "build": "echo 'Building Claude skin plugin'",
+    "dev": "echo 'Developing Claude skin plugin'"
+  },
+  "dependencies": {
+    "@opencode/ui": "workspace:*",
+    "@opencode/session-ui": "workspace:*",
+    "solid-js": "catalog:"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.9.0"
+  }
+}
